@@ -1,8 +1,9 @@
 # This function will take a list and then print out the items 
 # separated by a comma with an "and" before the last word.
 #
-# While the instructions did not mention it I also added
-# code to handle blank lists, single items, and just two items.
+# Since the instructions said that it should be able to handle
+# any list value I added cases for no items, one item, and
+# two items.
 
 def comma(items):
     if len(items) == 0:
