@@ -7,7 +7,7 @@ def listInvent(invent):
     item_count = 0
     print("You curently have:")
     for item, count in invent.items():
-        print(item + " " + str(count))
+        print(str(count) + " " + item)
         item_count = item_count + count
     print("That is total of " + str(item_count) + " items.")
 
